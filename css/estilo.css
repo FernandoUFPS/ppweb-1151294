@@ -15,29 +15,38 @@
 }
 
 .header__menu {
+  float: right;
   display: flex;
   align-items: center;
   width: -webkit-fill-available;
   height: 35px;
   background-color: purple;
-  float:right;
+  float: right;
 }
 
 .header__menu a {
-    color: white;
-    padding-right: 12px;
+  color: white;
+  padding-right: 12px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .pie__pagina {
-    clear: both;
-    text-align: center;
-    background-color: purple ;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    color: white;
-  }
+  background-color: rgb(98, 5, 141);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
 
 @media (max-width: 800px) {
   .logo {
@@ -45,22 +54,34 @@
   }
 }
 
-
 .container {
-    flex : 1 ;
-    display: flex;
-    background-color: blue;
+  flex: 1;
+  display: flex;
+  background-color: blue;
+}
+
+.seccion_left {
+  flex: 1;
+  display: flex;
+  background-color: blue;
+}
+
+.seccion_right {
+  flex: 1;
+  display: flex;
+  background-color: blue;
 }
 
 .parte1 {
-
-    flex: 1;
-    display : flex ;
-    background-color: blue;
+    flex:1 ;
+    background-color: red;
 }
 
 .parte2 {
-    flex: 1;
-    display : flex ;
-    background-color: blue;
+    flex:1 ;
+    background-color: red;
+}
+
+a {
+    font-display: none;
 }
