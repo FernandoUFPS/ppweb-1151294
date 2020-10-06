@@ -23,16 +23,12 @@
   float:right;
 }
 
-.enlances{
-    float:right;
-}
-
 .header__menu a {
     color: white;
     padding-right: 12px;
 }
 
-footer {
+.pie__pagina {
     clear: both;
     text-align: center;
     background-color: purple ;
@@ -47,4 +43,24 @@ footer {
   .logo {
     height: 22vh;
   }
+}
+
+
+.container {
+    flex : 1 ;
+    display: flex;
+    background-color: blue;
+}
+
+.parte1 {
+
+    flex: 1;
+    display : flex ;
+    background-color: blue;
+}
+
+.parte2 {
+    flex: 1;
+    display : flex ;
+    background-color: blue;
 }
