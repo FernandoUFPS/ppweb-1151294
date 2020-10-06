@@ -65,17 +65,9 @@ body {
     align-items: stretch;
 }
 
-.container img {
+.imgcontenido {
     width: 450px;
     height: 300px;
-}
-
-.seccion_left {
-  flex: 1;
-  display: flex;
-  background-color: blue;
-}
-und-color: red;
 }
 
 a {
